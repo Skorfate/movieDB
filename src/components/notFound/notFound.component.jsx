@@ -5,7 +5,7 @@ import React from "react";
 const NotFound = () => {
   return (
     <div>
-      <Grid item xs={12} sm={12}>
+      <Grid item xs={12} sm={12} style={{marginTop: '15px'}}>
         <Alert severity="warning">No existe resultado</Alert>
       </Grid>
     </div>

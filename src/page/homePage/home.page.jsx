@@ -27,7 +27,7 @@ const Home = () => {
 
 
     return (
-            <Grid container spacing={ 3 }  justify="center" 
+            <Grid container  justify="center" 
                 alignItems="center"  direction="column">
                 
                     <Buscador buscarPelicula = {buscarPelicula} />

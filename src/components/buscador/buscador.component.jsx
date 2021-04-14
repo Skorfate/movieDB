@@ -21,7 +21,7 @@ const Buscador = ({buscarPelicula}) =>  {
 
 
     return (
-        <Grid item xs={ 12 } sm={ 6 } style={{width: '100%'}}>
+        <Grid item xs={ 12 } sm={ 6 } style={{width: '90%'}}>
             <Paper className="paper">
                 <Autocomplete 
                     id="buscador"
